@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="assets/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="login-left">
+            <div class="login-header">
+                <h1>Welcome to Our Application</h1>
+                <p class="hola">Please login ti use the plattform</p>
+            </div>
+            <form class="login-form" action="/" method="POST">
+                <div class="login-form-content">
+                    <div class="form-item">
+                        <label for="email">Enter Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="form-item">
+                        <label for="password">Enter Password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="form-item">
+                        <div class="checkbox">
+                            <input type="checkbox" id="rememberMeCheckbox" checked>
+                            <label for="rememberMeCheckbox" class="checkBoxLabel">Remember Password</label>
+                        </div>
+                    </div>
+                    <button type="submit" value="login">Sign Up</button>
+                </div>
+                <div class="login-form-footer">
+                    <a href="#">
+                        <img width="30" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/640px-Facebook_f_logo_%282021%29.svg.png" alt="">
+                        FaceBook Login
+                    </a>
+                    <a href="#">
+                        <img width="30" src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png" alt="">
+                        Google Login
+                    </a>
+                </div>
+            </form>
+
+        </div>
+        <div class="login-right">
+            <img src="assets/1394375004.svg">
+        </div>
+    </div>
+</body>
+</html>
